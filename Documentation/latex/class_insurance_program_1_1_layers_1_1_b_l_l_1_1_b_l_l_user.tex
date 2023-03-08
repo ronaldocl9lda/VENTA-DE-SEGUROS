@@ -1,0 +1,186 @@
+\hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user}{}\doxysection{Insurance\+Program.\+Layers.\+BLL.\+BLLUser Class Reference}
+\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user}\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Data\+Table \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_aa8956a9b1cac0ebe8ed4fda7819eb7d6}{Read}} ()
+\begin{DoxyCompactList}\small\item\em Method that is used to read the Table User  \end{DoxyCompactList}\item 
+static Data\+Table \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a6cfe627f9a427fe712fabe6e3ab855d0}{Search}} (string Value)
+\begin{DoxyCompactList}\small\item\em Method that is used to search an User by its name or Identification  \end{DoxyCompactList}\item 
+static Data\+Table \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a009ff637902968f577dafc312b47297a}{Login}} (string User\+Id, string Password)
+\begin{DoxyCompactList}\small\item\em Method to login with the account  \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a11ccc15fa4d396b6539d3445d02c9ba1}{Insert}} (string User\+Id, int Role\+Id, string Name, string Password, byte\mbox{[}$\,$\mbox{]} Photo)
+\begin{DoxyCompactList}\small\item\em Method Insert so that the information can be saved on database. The Password is protected by security in database  \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a524e86921c469c621e3bad012b66b0c4}{Update}} (string Previous\+User\+Id, string User\+Id, int Role\+Id, string Name, string Password, byte\mbox{[}$\,$\mbox{]} Photo)
+\begin{DoxyCompactList}\small\item\em Method Insert so that the information can be saved on database. The Password is protected by security in database  \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a441524e7380d1a7ec4c2066919bbf5c3}{Delete}} (int Id)
+\begin{DoxyCompactList}\small\item\em Method that can be used to delete an User  \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a2480fd83ca2d89cb23bd0170f32952e1}{Activate}} (int Id)
+\begin{DoxyCompactList}\small\item\em Method that can be used to active an User  \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a5eff85acd1138b381ebd9883e40909aa}{Deactivate}} (int Id)
+\begin{DoxyCompactList}\small\item\em Method that can be used to desactivate an User  \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a2480fd83ca2d89cb23bd0170f32952e1}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a2480fd83ca2d89cb23bd0170f32952e1}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Activate@{Activate}}
+\index{Activate@{Activate}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Activate()}{Activate()}}
+{\footnotesize\ttfamily static string Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Activate (\begin{DoxyParamCaption}\item[{int}]{Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method that can be used to active an User  
+
+
+\begin{DoxyParams}{Parameters}
+{\em Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a5eff85acd1138b381ebd9883e40909aa}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a5eff85acd1138b381ebd9883e40909aa}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Deactivate@{Deactivate}}
+\index{Deactivate@{Deactivate}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Deactivate()}{Deactivate()}}
+{\footnotesize\ttfamily static string Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Deactivate (\begin{DoxyParamCaption}\item[{int}]{Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method that can be used to desactivate an User  
+
+
+\begin{DoxyParams}{Parameters}
+{\em Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a441524e7380d1a7ec4c2066919bbf5c3}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a441524e7380d1a7ec4c2066919bbf5c3}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Delete@{Delete}}
+\index{Delete@{Delete}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily static string Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Delete (\begin{DoxyParamCaption}\item[{int}]{Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method that can be used to delete an User  
+
+
+\begin{DoxyParams}{Parameters}
+{\em Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a11ccc15fa4d396b6539d3445d02c9ba1}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a11ccc15fa4d396b6539d3445d02c9ba1}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Insert@{Insert}}
+\index{Insert@{Insert}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily static string Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Insert (\begin{DoxyParamCaption}\item[{string}]{User\+Id,  }\item[{int}]{Role\+Id,  }\item[{string}]{Name,  }\item[{string}]{Password,  }\item[{byte\mbox{[}$\,$\mbox{]}}]{Photo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method Insert so that the information can be saved on database. The Password is protected by security in database  
+
+
+\begin{DoxyParams}{Parameters}
+{\em User\+Id} & \\
+\hline
+{\em Role\+Id} & \\
+\hline
+{\em Name} & \\
+\hline
+{\em Password} & \\
+\hline
+{\em Photo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a009ff637902968f577dafc312b47297a}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a009ff637902968f577dafc312b47297a}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Login@{Login}}
+\index{Login@{Login}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Login()}{Login()}}
+{\footnotesize\ttfamily static Data\+Table Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Login (\begin{DoxyParamCaption}\item[{string}]{User\+Id,  }\item[{string}]{Password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method to login with the account  
+
+
+\begin{DoxyParams}{Parameters}
+{\em User\+Id} & \\
+\hline
+{\em Password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_aa8956a9b1cac0ebe8ed4fda7819eb7d6}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_aa8956a9b1cac0ebe8ed4fda7819eb7d6}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Read@{Read}}
+\index{Read@{Read}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily static Data\+Table Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method that is used to read the Table User  
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a6cfe627f9a427fe712fabe6e3ab855d0}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a6cfe627f9a427fe712fabe6e3ab855d0}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Search@{Search}}
+\index{Search@{Search}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}}
+{\footnotesize\ttfamily static Data\+Table Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Search (\begin{DoxyParamCaption}\item[{string}]{Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method that is used to search an User by its name or Identification  
+
+
+\begin{DoxyParams}{Parameters}
+{\em Value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a524e86921c469c621e3bad012b66b0c4}\label{class_insurance_program_1_1_layers_1_1_b_l_l_1_1_b_l_l_user_a524e86921c469c621e3bad012b66b0c4}} 
+\index{InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}!Update@{Update}}
+\index{Update@{Update}!InsuranceProgram.Layers.BLL.BLLUser@{InsuranceProgram.Layers.BLL.BLLUser}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily static string Insurance\+Program.\+Layers.\+BLL.\+BLLUser.\+Update (\begin{DoxyParamCaption}\item[{string}]{Previous\+User\+Id,  }\item[{string}]{User\+Id,  }\item[{int}]{Role\+Id,  }\item[{string}]{Name,  }\item[{string}]{Password,  }\item[{byte\mbox{[}$\,$\mbox{]}}]{Photo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Method Insert so that the information can be saved on database. The Password is protected by security in database  
+
+
+\begin{DoxyParams}{Parameters}
+{\em User\+Id} & \\
+\hline
+{\em Role\+Id} & \\
+\hline
+{\em Name} & \\
+\hline
+{\em Password} & \\
+\hline
+{\em Photo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/ronal/\+One\+Drive/\+Escritorio/\+PROYECTO FINAL PROGRA III/\+Insurance\+Program/\+Insurance\+Program/\+Layers/\+BLL/BLLUser.\+cs\end{DoxyCompactItemize}
